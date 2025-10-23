@@ -5,7 +5,10 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+app.use(cors({
+  origin: ['http://localhost:3000', 'https://nms-dashboard.onrender.com'],
+  credentials: true
+}));
 const PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.json());
