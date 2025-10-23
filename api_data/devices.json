@@ -1,0 +1,13 @@
+[
+  {
+    "id": 0,
+    "name": "Device-2",
+    "imei": "4546454",
+    "imsi": "4664564",
+    "opc": "123",
+    "milenage": "1",
+    "rand": "1",
+    "cell_localization": "India",
+    "san_id": "1244"
+  }
+]

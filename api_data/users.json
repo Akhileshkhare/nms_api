@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "user_id": "test@iot.com",
+    "password": "test123",
+    "role": "admin",
+    "name": "Test User"
+  },
+  {
+    "id": 0,
+    "user_id": "admin@iot.com",
+    "password": "test@123",
+    "role": "admin",
+    "status": 0,
+    "is_deleted": 0,
+    "error": {
+      "code": 0,
+      "status": "",
+      "message": "",
+      "errors": []
+    },
+    "name": "Akhilesh Shrivastava",
+    "url_user_id": "admin@iot.com"
+  }
+]
